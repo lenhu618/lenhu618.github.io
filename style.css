@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* CSS Document */
+/*slideshow*/
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;}
+.wrapper{
+	width:100%;
+	height:auto;
+}
+.nav{
+	font-size:20px;
+	width:100%;
+	position:fixed;
+	z-index: 30;
+	padding-bottom: 5px;
+	background:#f6eceb;
+}
+.logo{
+	width:30%;
+	float:left;
+	margin: 5px 50px 0px;
+}
+.big-menu {
+	width:40%;
+	float:right;
+	padding:15px 0px 0px;
+    list-style: none;
+}
+.big-menu a{
+	text-decoration: none;
+	color: #003468;
+	display: block;
+}
+.big-menu li {
+	display: inline-block;
+	width: 110px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin-left: -5px;
+	position:relative;
+}
+.big-menu a:hover {
+	text-decoration: underline;
+	background:#E7CCCA;
+}
+li ul li:hover{
+	 text-decoration: underline;
+	
+}
+.menu1{
+	position:absolute;
+	visibility: hidden;
+}
+.menu2{
+	position:absolute;
+	visibility: hidden;
+}
+.collections:hover .menu1{
+	visibility: visible;
+}
+.product-menu:hover .menu2{
+	visibility: visible;
+}
+/*text*/
+h1{
+	font-size: 60px;
+}
+h1,h2{
+font-family: 'Philosopher', sans-serif;
+}
+h3,p,a{
+font-family: 'Marmelad', sans-serif;
+}
+strong{
+	color:#003468;
+	font-size: 30px;
+}
+.mySlides {
+	display: none;
+	position:relative;
+	z-index: 1;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin-bottom: -20px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+	z-index: 6;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:#B4ABAB;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  position: absolute;
+  top:300px;
+  width: 100%;
+  text-align: center;
+}
+.text p{
+	padding: 30px;
+	font-size:20px;
+}
+.text a{
+	text-decoration: none;
+	font-size:25px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*text box1*/
+.vision{
+	width:100%;
+	display:block;
+	margin: 0 auto;
+	padding-top:80px;
+	padding-bottom:100px;
+	background-color: #f9d9de; 
+	font-size: 20px;
+	line-height: 30px;
+}
+.vision strong{
+	font-size: 25px;
+}
+.vision-text{
+	position:relative;
+	text-align: center;
+
+}
+#bg-vision{
+	position:absolute;
+	right: 200px;
+	height:400px;
+}
+/*collections*/
+.collection{
+	width:100%;
+	height:2400px;
+	background-color: #f9d9de;
+	font-size: 18px;
+	position:relative
+}
+#bg-collection{
+	width:100%;
+	display:block;
+	margin: 0 auto;
+}
+#bg-collection img{
+	position:absolute;
+	left:100px;
+	height:600px;
+	top: 600px;
+	
+}
+/*wedding div*/
+.wedding img, .season img{
+	width:50%;
+	margin:0px 30px 50px 0px;
+	float:left;
+	-webkit-animation: scale-up-hor-right 0.5s linear 1s ;
+	        animation: scale-up-hor-right 0.5s linear 1s ;
+}
+
+.wedding{
+	height:650px;
+	position:relative;
+	width:100%;
+	float:left;
+	text-align: left;
+	margin-bottom: 200px;
+	z-index: 20;
+}
+.text-1{
+	width:45%;
+	float:left;
+	line-height: 30px;
+	margin-top:50px;
+}
+.text-1 p{
+	margin-left:30px;
+}
+.text-1 a{
+	margin-bottom:-50px;
+	margin-left:40px;
+}
+#p{
+	position:absolute;
+	top:300px;
+	width:100%;
+	text-align: center;
+	font-family: 'GFS Didot', serif;
+	font-size: 350px;
+	font-style: italic;
+		color:#003468;
+  -webkit-text-fill-color: transparent ; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #003468;
+}
+/*luxury div*/
+.luxury{
+	height:650px;
+	width:100%;
+	float:left;
+	text-align: right;
+	margin-bottom: 200px;
+	position: relative;
+}
+.luxury img{
+	width:50%;
+	margin: 0px;
+	float:right;
+}
+.text-2 {
+	width:45%;
+	margin-top: 300px;
+	line-height: 30px;
+}
+.text-2 a{
+	margin-top: 10px;
+}
+#n{
+	position:absolute;
+	top:700px;
+	width:100%;
+	text-align: right;
+	font-family: 'GFS Didot', serif;
+	font-size: 250px;
+	font-style: italic;
+	opacity: 0.8;
+    color:#003468;
+	-webkit-animation: slide-top 4s linear 3s both;
+	        animation: slide-top 4s linear 3s both;
+}
+/*season div*/
+.season{
+	height:650px;
+	width:100%;
+	text-align: left;
+	position: relative;
+}
+.season img{
+	float:left;
+}
+.text-3{
+	width:45%;
+	float:left;
+	line-height: 30px;
+}
+.text-3 p{
+	margin-top: 120px;
+    margin-left:40px;
+}
+.text-3 a{
+	margin-bottom:-50px;
+	margin-left:40px;
+}
+#j{
+	position:absolute;
+	top: 2100px;
+	width:100%;
+	text-align: center;
+	font-family: 'GFS Didot', serif;
+	font-size: 250px;
+	font-style: italic;
+	color:#003468;
+  -webkit-text-fill-color: transparent ; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #003468;
+	-webkit-animation: slide-top 4s linear 6s both;
+	        animation: slide-top 4s linear 6s both;
+}
+#p{
+	-webkit-animation: slide-top 4s linear 0.5s both;
+	        animation: slide-top 4s linear 0.5s both;
+}
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+	100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+	100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*all product*/
+#bg-product img{
+	position:absolute;
+	top:200px;
+	height:600px;
+	left:48%;
+}
+.product{
+	background: #f6eceb;
+	height:1400px;
+	position:relative;
+	width:100%;
+}
+.product figture{
+	width:50%;
+	height:650px;
+	float:left;
+	display:block;
+	margin: 0 auto;
+}
+.product figture img{
+	width:350px;
+	display:block;
+	margin:0 auto;
+}
+.product figcaption{
+    color:#003468;
+	font-size: 30px;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 35px;
+}
+.product figture p{
+	font-size: 30px;
+	text-decoration-color: none;
+	color:#003468;
+}
+.product figcaption a{
+	text-decoration: none;
+	color: darkgray;
+	font-size: 20px;
+}
+.earrings figture img{
+	margin-top:80px;
+}
+.necklace figture img{
+	margin-top:200px;
+}
+.bracelet figture img{
+	margin-top: 200px;
+}
+.product figcaption a:hover{
+	color:#003468;
+	text-decoration: underline;
+}
+/*all product*/
+/*transport*/
+.transport{
+	margin: 90px 0px 80px 0px;
+	height:400px;
+}
+#trasport-text{
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.icon{
+	width:70%;
+	display:block;
+	margin: 0 auto;
+}
+.icon figture{
+	width: 25%;
+	float:left;
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	line-height: 30px;
+}
+.icon figture img{
+	width:50%;
+}
+/*transport*/
+/*footer*/
+footer{
+	background-color: #f6eceb;
+	width:100%;
+	height:200px;
+	color:#003468;
+	font-size: 15px;
+	line-height: 35px;
+}
+#footer-container{
+	width:70%;
+	float:left;
+	margin-top:50px;
+}
+.footer-logo{
+	width:30%;
+	float:left;
+}
+.footer-logo img{
+	width:40%;
+	display:block;
+	margin: 0 auto;
+	margin-top:50px;
+}
+.footer-info{
+	width:50%;
+	float:left;
+	text-align: center;
+	
+}
+.footer-contact{
+	width:50%;
+	float:left;
+	text-align: center;
+	margin-top:20px;
+}
+
+.copyright{
+	width:100%;
+	float:left;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 15px;
+}

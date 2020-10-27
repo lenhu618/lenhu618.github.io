@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>Pnj jewelry</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--	aos-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!--	header font-->
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet"><!--	text font-->
+	<link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+<!--	font icon-->
+	<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+<!--	fontawesome-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="responsive-index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="wrapper">
+	    <header>
+<!--			menu-->
+			<div class="nav">
+			    <div class="logo">
+					<a href="index.html">
+				    <img src="img/pnj.com.vn.png" alt="logo-pnj" style="width:100px">
+					</a>
+			    </div>
+		    
+				<ul class="big-menu">
+					<li><a href="index.html">Home</a></li>
+					<li class="collections"><a href="Collections.html">Collections</a>
+						<ul class="menu1">
+							<li><a href="Collections.html">Wedding</a></li>
+							<li><a href="Collections.html">Luxury</a></li>
+							<li><a href="Collections.html">Season</a></li>
+						</ul>
+					</li>
+					<li class="product-menu"><a href="Product.html">Product</a>
+						<ul class="menu2">
+							<li><a href="Product.html">Earrings</a></li>
+							<li><a href="Product.html">Necklace</a></li>
+							<li><a href="Product.html">Ring</a></li>
+							<li><a href="Product.html">Bracelet</a></li>
+						</ul>
+					</li>
+					<li><a href="Contact.html">Contact us</a></li>
+				</ul>
+			</div>
+
+<!--			slideshow-->
+			
+			<div class="slideshow-container">
+
+                <div class="mySlides fade">
+                           <img src="img/ha-ha-6RToWEdU9s4-unsplash.jpg" style="width:100%" alt="imgring">
+                           <div class="text">
+							   <h1 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">Trust and Style</h1>
+							   <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500"><a href="">Explore collections</a></p>
+					       </div>
+                </div>
+
+                <div class="mySlides fade">
+                           <img src="img/sabrinna-ringquist-nJzDeewiBRg-unsplash.jpg" style="width:100%" alt="imgring2">
+                           <div class="text"><h1>Trust and Style</h1>
+							   <p><a href="">Explore product</a></p></div>
+                </div>
+
+                <div class="mySlides fade">
+                           <img src="img/classy-silver-wedding-rings-made-white-gold-lie-crystal-bracelet (1).jpg" style="width:100%" alt="imgring3">
+                           <div class="text" >
+							   <h1 >Trust and Style</h1>
+							   <p><a href="">Explore product</a></p></div>
+                </div>
+
+                           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <br>
+
+	             </div>
+                          <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"
+	  ;  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	    </header>
+		<main>
+<!--			text vision-->
+			<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150"><img id="bg-vision" src="img/vision-03.png" alt=""></div>
+			<section class="vision">
+				<div class="vision-text"> <h1 class="vision-text-left" data-aos="fade-up" data-aos-duration="1000" style="font-family: 'GFS Didot', serif;
+					font-size: 100px;
+					width:5%;
+					float:left;
+					padding-left: 200px;
+					padding-top:-40px;
+					opacity:0.5;
+					position:absolute;
+					">“</h1>
+					<p data-aos="fade-up" data-aos-duration="1000">From the moment I set out to create PNJ, <br> I knew I wanted to deliver a <br><strong>refined collection accessible to all.</strong> <br>With the same unparalleled craftsmanship,iconic aesthetics and <br>meticulous approach to selecting your perfect diamond,<br><strong> all you have to do is say PNJ.</strong></p>
+					<h1 class="vision-text-right" data-aos="fade-up" data-aos-duration="1000" style="font-family: 'GFS Didot', serif;
+					font-size: 100px;
+					width:5%;
+					float:right;
+					padding-right: 200px;
+					opacity:0.5;
+					">”</h1>
+				</div>
+			</section>
+<!--			collection teaser-->
+			<section class="collection">
+				<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" id="bg-collection"><img  src="img/collection.png" alt=""></div>
+				<div class="wedding">
+					<div data-aos="fade-right" data-aos-offset="30" data-aos-duration="3000"><img src="img/bride-hand-with-diamond-ring-pearl-bracelet-white-dress.jpg" alt="collections wedding"></div>
+					<h1 id="p">P</h1>
+					<div class="text-1">
+					     <p><strong>WEDDING Collections</strong><br> <br>
+
+                          PNJ streamlines diamond selection for your engagement ring by uncomplicating the traditional process. <br>Experience an evolved, more curated approach to fine diamonds from a team born with a relentless obsession for perfection. <br> <br>
+
+                          Simply select your favorite design and ideal cut from the comfort of your own home and allow us to do what we do best—present you with a couture caliber diamond worthy of only your favorite person.</p> <br>
+					      <a href="">EXPLORE COLLECTION</a>
+					</div>
+				</div>
+				<div class="luxury">
+					
+					<div data-aos="fade-left" data-aos-offset="30" data-aos-duration="3000"><img src="img/golden-girl-accessories-white-round-platforms-wooden-surface_112112-77.jpg" alt="collections luxury"> </div>
+					<h1 id="n">N</h1>
+					     <div class="text-2">
+					          <p><strong>LUXURY Collections</strong> <br> <br>
+                         	     All of our designs have three things in common — vision, experience, and an extraordinary attention to detail. <br> <br> These defining pillars now live on through PNJ. From our premiere metalsmiths to our world renowned stone setters,your jewelry is in the hands of the masters of this craft and maintain the same principles that define our finest jewelry lines.</p> <br>
+					          <a href="">EXPLORE COLLECTION</a>
+						</div>	 
+				</div>
+				<div class="season">
+					<div data-aos="fade-right" data-aos-offset="30" data-aos-duration="3000"><img src="img/bride-s-wedding-accessories-bracelet-earrings-chain-with-pendant-eustoma-flowers-beige-background_121837-1247.jpg" alt="collections season"></div>
+					<h1 id="j">J</h1>
+					<div class="text-3">
+						<p> <strong>Season Collections</strong> <br> <br>
+
+Modern luxuries tailored to you. PNJ translates Jean Dousset’s unmistakable artistry into an accessible, personalized fine jewelry collection.<br> This is design house expertise within reach. Timeless, covetable pieces handcrafted, made to order and all priced to meet your needs.</p> <br>
+						<a href="">EXPLORE COLLECTION</a>
+					</div>
+				</div>
+			</section>
+<!--			product teaser-->
+			<section class="product">
+				<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" id="bg-product" ><img src="img/All product.png" alt=""></div>
+<!--				teaser earrings-->
+				<div class="earrings">
+						<figture data-aos="fade-right" data-aos-offset="30" data-aos-duration="3000"><a href="">
+					     <img src="img/golden-earrings-sea-shell_85869-4074.jpg" alt="earrings">
+						<figcaption>
+							<p> Earrings </p><br>
+							<a href="">Shop now</a>
+						</figcaption></a>
+					</figture>
+				</div>
+<!--				teaser necklace-->
+				<div class="necklace">
+					<figture data-aos="fade-left" data-aos-offset="30" data-aos-duration="3000"><a href="">
+					    <img src="img/sabrinna-ringquist-ZoDgJpXzDB8-unsplash.jpg" alt="">
+					    <figcaption>
+							<p> Necklace </p><br>
+							<a href="">Shop now</a>
+						</figcaption></a>
+					</figture>
+				</div>
+<!--				teaser rings-->
+				<div class="rings">
+					<figture data-aos="fade-right" data-aos-offset="30" data-aos-duration="3000"><a href="">
+					    <img src="img/wedding-rings-with-ornaments.jpg" alt>
+						<figcaption>
+							<p> Rings </p><br>
+							<a href="">Shop now</a>
+						</figcaption></a>
+					</figture>
+				</div>
+<!--				teaser bracelet-->
+				<div class="bracelet">
+					<figture data-aos="fade-left" data-aos-offset="30" data-aos-duration="3000"><a href="">
+						 <img src="img/gold-bracelet-jewelry-white-isolated-background_3544-1157 (1).jpg" alt="">
+						<figcaption>
+							<p>Bracelet </p> <br>
+							<a href="">Shop now</a>
+						</figcaption></a>
+					</figture>
+				</div>
+			</section>
+			<section class="transport">
+				<div  id="trasport-text">
+					<h2>Transport</h2>
+					<p>The Oui shopping experience is carefully designed with you in mind. <br> Stress-free from start to finish with complimentary, <br> no-hassle services—and that’s our promise.</p>
+				</div>
+				<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" class="icon">
+					<figture>
+						<img src="img/ring-sizer@2x.png" alt="">
+						<figcaption>Free ring sizing and ring sizer for the perfect fit</figcaption>
+					</figture>
+					<figture>
+						<img src="img/perfect-packaging@2x.png" alt="">
+						<figcaption>Perfect packaging</figcaption>
+					</figture>
+					<figture>
+						<img src="img/overnight-shipping@2x.png" alt="">
+						<figcaption>Free overnight insured shipping</figcaption>
+					</figture>
+					<figture>
+						<img src="img/free-returns@2x.png" alt="">
+						<figcaption>Free 15 day return policy</figcaption>
+					</figture>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-logo">
+				<img src="img/pnj.com.vn.png" alt="">
+			</div>
+	    <div id="footer-container">
+			<div class="footer-info">
+				<i class="fa fa-pinterest-p" aria-hidden="true"> Pinterest</i> <br>
+				<i class="fa fa-facebook" aria-hidden="true"> Facebook</i> <br>
+				<i class="fa fa-instagram" aria-hidden="true"> Instagram</i>
+			</div>
+			<div class="footer-contact">
+				<i class="fa fa-phone" aria-hidden="true"> 08484848</i> <br>
+				<i class="fa fa-envelope-o" aria-hidden="true"> Email</i>
+			</div>
+		</div>
+			<div class="copyright"> 
+				<i class="fa fa-copyright" aria-hidden="true">copyright2020</i>
+			</div>
+	      
+		</footer>
+	</div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
+</body>
+</html>

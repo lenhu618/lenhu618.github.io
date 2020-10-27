@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 768px) {
+
+.nav{
+	font-size:15px;
+	width:100%;
+	position:fixed;
+	z-index: 30;
+	padding-bottom: 3px;
+}
+.logo{
+	width:30%;
+	float:left;
+	margin: 10px 10px 0px 10px;
+}
+.big-menu {
+	width:60%;
+	float:right;
+	padding:10px 0px 0px;
+}
+.product-menu:hover .menu2{
+	visibility: visible;
+}
+/*text*/
+h1{
+	font-size: 50px;
+}
+strong{
+	color:#003468;
+	font-size: 25px;
+}
+/* Caption text */
+.text {
+  top:160px;
+}
+/*text box1*/
+.vision{
+	font-size: 18px;
+	line-height: 25px;
+}
+.vision strong{
+	font-size: 22px;
+}
+.vision-text{
+	position:relative;
+	text-align: center;
+
+}
+.vision-text-left{
+	padding-left: 30px;
+	padding-top:0px;	
+	}
+.vision-text-right{
+	padding-right: 40px;
+	}	
+#bg-vision{
+	right: 0px;
+	height:300px;
+}
+/*collections*/
+.collection{
+	height:1800px;
+	font-size: 14px;
+	}
+#bg-collection{
+	width:100%;
+	display:block;
+	margin: 0 auto;
+}
+#bg-collection img{
+	position:absolute;
+	left:-40px;
+	height:400px;
+	top: 300px;
+	
+}
+/*wedding div*/
+.wedding img, .season img{
+	width:50%;
+	margin:20px 0px 40px 0px;
+	float:left;
+	-webkit-animation: scale-up-hor-right 0.5s linear 1s ;
+	        animation: scale-up-hor-right 0.5s linear 1s ;
+}
+
+.wedding{
+	height:550px;
+	float:left;
+	margin-bottom: 100px;
+}
+.text-1{
+	width:45%;
+	float:left;
+	line-height: 20px;
+	margin-top:20px;
+}
+.text-1 p{
+	margin-right:20px;
+}
+.text-1 a{
+	margin-right:20px;
+}
+#p{
+	top:200px;
+	font-size: 300px;
+	}
+/*luxury div*/
+.luxury{
+	height:550px;
+	margin-bottom: 100px;
+	}
+.luxury img{
+		width:50%;
+	}
+.text-2 {
+	width:45%;
+	margin-top: 50px;
+	margin-left: 20px;
+	line-height: 20px;
+}
+#n{
+	top:300px;
+}
+/*season div*/
+.season{
+	height:550px;
+}
+.season img{
+	float:left;
+}
+.text-3{
+	width:45%;
+	float:left;
+	line-height: 20px;
+}
+.text-3 p{
+	margin-top: 50px;
+    margin-left:20px;
+}
+.text-3 a{
+	margin-bottom:-50px;
+	margin-left:20px;
+}
+#j{
+	top: 1450px;
+	font-size: 250px;
+}
+/*all product*/
+#bg-product img{
+	position:absolute;
+	top:300px;
+	height:400px;
+	left:47%;
+}
+.product{
+	height:1300px;
+}
+.product figture{
+	height:550px;
+}
+.product figture img{
+	width:300px;
+}
+.product figcaption{
+	font-size: 25px;
+	width: 300px;
+	margin-top: 30px;
+}
+.product figture p{
+	font-size: 25px;
+}
+.product figcaption a{
+	color: darkgray;
+	font-size: 18px;
+}
+
+/*all product*/
+/*transport*/
+.transport{
+	margin: 90px 0px 70px 0px;
+	height:350px;
+}
+#trasport-text{
+	line-height: 25px;
+	font-size:18px;
+	margin-bottom: 25px;
+}
+.icon{
+	width:70%;
+	display:block;
+	margin: 0 auto;
+}
+.icon figture{
+	width: 25%;
+	line-height: 30px;
+}
+.icon figture img{
+	width:45%;
+}
+/*transport*/
+/*footer*/
+footer{
+	background-color: #f6eceb;
+	width:100%;
+	height:200px;
+	color:#003468;
+	font-size: 15px;
+	line-height: 35px;
+}
+#footer-container{
+	width:70%;
+	float:left;
+	margin-top:50px;
+}
+.footer-logo{
+	width:30%;
+	float:left;
+}
+.footer-logo img{
+	width:150px;
+	display:block;
+	margin: 0 auto;
+	margin-top:50px;
+}
+.footer-info{
+	width:50%;
+	float:left;
+	text-align: center;
+	
+}
+.footer-contact{
+	width:50%;
+	float:left;
+	text-align: center;
+	margin-top:20px;
+}
+
+.copyright{
+	width:100%;
+	float:left;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+}
